@@ -7,7 +7,7 @@ class NumberCalculations
     static void Main()
     {
         Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
-        Console.WriteLine("What type of numbers will be calculated(double, decimal or int):");
+        Console.WriteLine("What type of numbers will be calculated(floating point number or integer):");
         string choice = Console.ReadLine();
         Console.WriteLine();
         if (choice == "double")
